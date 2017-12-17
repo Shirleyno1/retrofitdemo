@@ -26,7 +26,7 @@ public class ShakeHomeActivity extends Activity implements ShakeRemainTimesRespo
     private SensorManager mSensorManager; // 感应器管理器
     private ShakeListener mSensorListener; // 监听摇晃的listener变量
     private ImageView mImageviewShakeLogo; // 放主界面上摇晃的马的imageview
-
+    //comment1
     private ImageView mImageviewLight; // 主界面上闪烁的彩灯
     private ImageView mTvShakeRules; // 规则按钮
     private PopupWindow mPopupWindow; // 摇中奖后的弹出窗
@@ -106,6 +106,7 @@ public class ShakeHomeActivity extends Activity implements ShakeRemainTimesRespo
 
     /**
      * 把剩余次数的颜色变成红色
+     *
      * @param times
      * @return
      */
